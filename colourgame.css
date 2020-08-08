@@ -1,0 +1,67 @@
+body{
+	background: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin:0;
+}
+
+.square{
+	background: green;
+	padding-bottom: 30%;
+	width: 30%;
+	margin: 1.66%; 
+	float: left;
+	border-radius: 15%;
+	transition: background 0.7s;
+}
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+h1{
+	color:white;
+	text-align: center;
+	line-height: 1.1;
+	background: steelblue ;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+	transition: background 0.3s;
+
+}
+#displaycolor{
+	font-size: 200%;
+
+}
+#message{
+	color:black;
+	display: inline-block;
+	width: 20%;
+}
+#nav{
+	background: white;
+	text-align: center;
+	/*width: 55%;*/
+	height: 40px;
+	margin: 0 auto;
+}
+
+.selected{
+	background:steelblue;
+	color: white;
+}
+button{
+	height:100%;
+	border: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: steelblue;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+button:hover{
+	color:white;
+	background: steelblue;
+}
